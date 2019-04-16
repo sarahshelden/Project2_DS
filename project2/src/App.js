@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Plot from "./components/plots";
 import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 
 class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div>
          <NavBar/>
         <Plot/> 
+        <Footer/>
        
       </div>
       
